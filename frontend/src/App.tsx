@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      App Component
+      <h1>App Component</h1>
     </>
   )
 }
