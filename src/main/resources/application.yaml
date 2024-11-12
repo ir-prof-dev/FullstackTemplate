@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: template
+
+  datasource:
+    url: jdbc:postgresql://localhost:5420/template
+    driver-class-name: org.postgresql.Driver
+    username: template
+    password: template
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    jpa:
+      generate-ddl: false
+      hibernate:
+        ddl-auto: none
+  server:
+    port: 8080
