@@ -6,7 +6,7 @@ function App() {
     <>
       <h1>App Component</h1>
         <div>
-            <button>Cancel</button>
+            <button style={{color: "red"}}>Cancel</button>
         </div>
 
     </>
